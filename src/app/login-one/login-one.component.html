@@ -1,0 +1,28 @@
+<!-- Formularios -->
+<div >
+  <!-- Links de los formularios -->
+  <ul >
+      <li><a href="loginOne">Iniciar Sesión</a></li>
+      <li ><a href="register">Registrarse</a></li>
+  </ul>
+
+  <!-- Contenido de los Formularios -->
+  <div >
+      <!-- Iniciar Sesion -->
+      <div id="">
+          <h1>Iniciar Sesión</h1>
+              <div >
+                  <label>
+                      Usuario <span >*</span>
+                  </label>
+                  <input type="text" name="" id="" class="form-control" [(ngModel)]="usuario" required>
+              </div>
+
+              <div >
+                  <label>
+                      Contraseña <span >*</span>
+                  </label>
+                  <input type="password" name="" id="" class="form-control" [(ngModel)]="contrasena" required>
+              </div>
+              <input type="submit" class="button button-block" value="Iniciar Sesión" (click)="validacion()">
+      </div>
