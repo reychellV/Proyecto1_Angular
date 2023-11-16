@@ -8,6 +8,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
 import { LoginOneComponent } from './login-one/login-one.component';
+import { ListaComponent } from './lista/lista.component';
+import { FuegoComponent } from './fuego/fuego.component';
+import { AguaComponent } from './agua/agua.component';
+import { HierbaComponent } from './hierba/hierba.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { LoginOneComponent } from './login-one/login-one.component';
     LoginComponent,
     DashboardComponent,
     RegisterComponent,
-    LoginOneComponent
+    LoginOneComponent,
+    ListaComponent,
+    FuegoComponent,
+    AguaComponent,
+    HierbaComponent
   ],
   imports: [
     BrowserModule,
